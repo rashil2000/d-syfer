@@ -1,0 +1,12 @@
+body {
+    text-align:center;
+    font-family: fonttwo;
+}
+@font-face {
+    font-family: fontone;
+    src: url(fonts/CascadiaCode-Regular-VTT.ttf);
+}
+@font-face {
+    font-family: fonttwo;
+    src: url(fonts/PigpenCipher.otf);
+}
