@@ -1,7 +1,3 @@
-document.querySelector('.submitBTN1').addEventListener('click', (e) => {
-    e.preventDefault()
-    document.querySelector('#encodedText').innerHTML = document.querySelector('#originalText').value
-})
 document.querySelector('.submitBTN2').addEventListener('click', (f) => {
     f.preventDefault()
     let a = document.querySelector('#originalATB').value

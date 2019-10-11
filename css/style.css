@@ -20,14 +20,14 @@
     text-align:left;
     background-color: brown;
     padding: 40px;
-    padding-left: 75px;
+    padding-left: 90px;
     color: white;
     letter-spacing: 3px;
 }
 #nav-bar 
 {
     padding: 10px;
-    padding-left: 60px;
+    padding-left: 75px;
     text-align: left;
     margin: auto;
     background: chocolate;
@@ -44,9 +44,9 @@
 }
 #banner
 {
-    background: url(banner.jpg);
+    background: url(../images/banner.jpg);
     color: lightgreen;
-    text-shadow: 1px 1px #ffffff;
+    text-shadow: 2px 2px 5px #000000;
     font-size: 40px;
     padding: 20px;
     text-align: center;
@@ -97,7 +97,8 @@ input[type="submit"]:hover
 .left
 {
     float: left;
-    width: 75%;
+    width: 70%;
+    font-size: 18px;
     box-sizing: border-box;
     text-align: justify;
     padding-top: 10px;
@@ -109,13 +110,10 @@ input[type="submit"]:hover
 {
     float: right;
     width: 25%;
-    background: #f4f4f4;
     box-sizing: border-box;
     text-align: justify;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 footer
 {
@@ -138,7 +136,7 @@ footer a:hover
     text-decoration: none;
     padding: 20px;
 }
-@media(max-width: 600px)
+@media(max-width: 900px)
 {
     .left
     {
@@ -162,10 +160,10 @@ footer a:hover
 @font-face 
 {
     font-family: fontone;
-    src: url(CascadiaCode-Regular-VTT.ttf);
+    src: url(../fonts/CascadiaCode.ttf);
 }
 @font-face 
 {
     font-family: fonttwo;
-    src: url(PigpenCipher.otf);
+    src: url(../fonts/PigpenCipher.otf);
 }

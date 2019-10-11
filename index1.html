@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>D-SYFER</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="container">
+        <header id="main-head">
+            <h1>D-SYFER</h1>
+        </header>
+    </div>
+    <nav id="nav-bar">
+        <a href="index.html">Pigpen</a>
+        <a href="#">Atbash</a>
+        <a href="index2.html">Caesar</a>
+    </nav>
+    <section id="banner">
+        <div class="container">
+            THE ATBASH CIPHER
+            <br>
+            GSV ZGYZHS XRKSVI
+        </div>
+    </section>
+    <div class="content">
+        <div><p class="title">Encode text here</p></div>
+        <form>
+            <div>
+                <label class="label">Plaintext</label>
+                <textarea class="text" id="originalATB" placeholder="Type here"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" class="submitBTN2" value="Go">
+            </div>
+            <br>
+            <div>
+                <label class="label">Ciphertext</label>
+                <textarea class="text" id="encodedATB">Gbkv sviv</textarea>
+            </div>
+        </form>
+    </div>
+    <div class="content">
+        <div class="left">
+            The Atbash cipher is a substitution cipher with a specific key where the letters of the alphabet are reversed. I.e. all 'A's are replaced with 'Z's, all 'B's are replaced with 'Y's, and so on. It was originally used for the Hebrew alphabet, but can be used for any alphabet. <br> The Atbash cipher offers almost no security, and can be broken very easily. Even if an adversary doesn't know a piece of ciphertext has been enciphered with the Atbash cipher, they can still break it by assuming it is a substitution cipher and determining the key using hill-climbing. If multiple collating orders are available, which one was used in encryption can be used as a key, but this does not provide significantly more security, considering only a few letters can give away which one was used. The Atbash cipher is also an Affine cipher with a=25 and b = 25, so breaking it as an affine cipher also works. <br> [Source: <a href="https://en.wikipedia.org/wiki/Atbash">Wikipedia</a>]       
+        </div>
+        <img src="images/atbash.jpg" alt="pigpen" class="right">
+        <div class="clearfix"></div>
+    </div>
+    <div class="container">    
+        <footer>
+            <a href="https://rashil2000.github.io" target="__blank">Rashil Gandhi</a>
+        </footer>
+    </div>
+    <script src="js/script1.js"></script>
+</body>
+
+</html>
