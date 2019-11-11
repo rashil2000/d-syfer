@@ -4,7 +4,7 @@
   <a href="https://rashil2000.github.io/d-syfer">rashil2000.github.io/d-syfer</a><br><br>
 </p>
 <p>
-  <b>Contributons:</b>
+  <b>Contributions:</b>
   <br>Feel free to open any new issues for bugs or feature requests.
   <br>Include screenshots/screengrabs with the pull requests.
   <br>Communicate on the Gitter <a href="https://gitter.im/d-syfer/community">channel</a> if you face any problem.
