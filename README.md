@@ -2,5 +2,13 @@
   <br><img src="images/d-syfer.png"><br><br>
   <b>A simple JavaScript project</b><br><br>
   <a href="https://rashil2000.github.io/d-syfer">rashil2000.github.io/d-syfer</a><br><br>
-  <br>Inspiration: <a href="https://www.dcode.fr/">dcode</a><br>
+</p>
+<p>
+  <b>Contributons:</b>
+  <br>Feel free to open any new issues for bugs or feature requests.
+  <br>Include screenshots/screengrabs with the pull requests.
+  <br>Communicate on the gitter <a href="https://gitter.im/d-syfer/community" target="__blank">channel</a> if you face any problem.
+</p>
+<p align="right">
+  <br>Inspiration: <a href="https://www.dcode.fr/">dcode</a><br><br><br>
 </p>
