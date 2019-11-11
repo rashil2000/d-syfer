@@ -7,7 +7,7 @@
   <b>Contributons:</b>
   <br>Feel free to open any new issues for bugs or feature requests.
   <br>Include screenshots/screengrabs with the pull requests.
-  <br>Communicate on the gitter <a href="https://gitter.im/d-syfer/community" target="__blank">channel</a> if you face any problem.
+  <br>Communicate on the Gitter <a href="https://gitter.im/d-syfer/community">channel</a> if you face any problem.
 </p>
 <p align="right">
   <br>Inspiration: <a href="https://www.dcode.fr/">dcode</a><br><br><br>
