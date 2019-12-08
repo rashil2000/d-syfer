@@ -1,11 +1,11 @@
 document.querySelector('.submitBTN3').addEventListener('click', (f) => {
     f.preventDefault();
-    let shift = parseInt(document.querySelector('#CSRshift').value);
-    let shift1 = parseInt(document.querySelector('#CSRshift1').value);
-    if (shift>25||shift<-25)
-        alert("Enter shift between -25 and 25");
-    else if(shift1>9||shift1<-9){
-        alert("Enter shift2 between -9 and 9");
+    let AlphabetShift = parseInt(document.querySelector('#CSRshift').value);
+    let NumberShift = parseInt(document.querySelector('#CSRshift1').value);
+    if (AlphabetShift>25||AlphabetShift<-25)
+        alert("Enter Alphabet Shift between -25 and 25");
+    else if(NumberShift>9||NumberShift<-9){
+        alert("Enter Number Shift between -9 and 9");
     }
     else
     {
@@ -17,7 +17,7 @@ document.querySelector('.submitBTN3').addEventListener('click', (f) => {
             j = a.charCodeAt(i);
             if (j>96&&j<123)
             {
-                k = j+shift;
+                k = j+AlphabetShift;
                 if (k>122)
                     k-=26;
                 else if (k<97)
@@ -25,7 +25,7 @@ document.querySelector('.submitBTN3').addEventListener('click', (f) => {
                 s+=String.fromCharCode(k);
             }
             else if(j>47&&j<58){
-                k=j+shift1;
+                k=j+NumberShift;
                 if(k>57)
                     k=k-10;
                 else if(k<48)
@@ -34,7 +34,7 @@ document.querySelector('.submitBTN3').addEventListener('click', (f) => {
             }
             else if (j>64&&j<91)
             {
-                k = j+shift;
+                k = j+AlphabetShift;
                 if (k>90)
                     k-=26;
                 else if (k<65)
