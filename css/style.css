@@ -18,7 +18,7 @@
 #main-head 
 {
     text-align:left;
-    background-color: brown;
+    background-color: navy;
     padding: 40px;
     padding-left: 90px;
     color: white;
@@ -30,17 +30,18 @@
     padding-left: 75px;
     text-align: left;
     margin: auto;
-    background: chocolate;
+    background: navy;
 }
 #nav-bar a
 {
     text-decoration: none;
     padding: 10px 15px;
-    color: greenyellow;
+    color: white;
 }
 #nav-bar a:hover
 {
-    background: lightblue;
+    background: silver;
+    color:black
 }
 #banner
 {
@@ -54,7 +55,7 @@
 #pigpen
 {
     font-family: fonttwo;
-    padding-top: 10px;
+    padding-top: 10px; m
 }
 .title
 {
@@ -117,7 +118,7 @@ input[type="submit"]:hover
 }
 footer
 {
-    background: brown;
+    background:rgb(75,0,130);
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -132,7 +133,7 @@ footer a
 }
 footer a:hover
 {
-    color: yellow;
+    color: rgb(216,161,216);
     text-decoration: none;
     padding: 20px;
 }
