@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>D-SYFER</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="container">
+        <header id="main-head">
+            <h1>D-SYFER</h1>
+        </header>
+    </div>
+    <nav id="nav-bar">
+        <a href="index.html">Pigpen</a>
+        <a href="index1.html">Atbash</a>
+        <a href="index2.html">Caesar</a>
+        <a href="#">Affine</a>
+    </nav>
+    <section id="banner">
+        <div class="container">
+            THE AFFINE CIPHER
+            <br>
+            ZRC IHHWVC SWFRCP
+        </div>
+    </section>
+    <div class="content">
+        <div><p class="title">Encode text here</p></div>
+        <form>
+            <div>
+                <label class="label">Plaintext</label>
+                <textarea class="text" id="plaintext" placeholder="Type here"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div>
+                <label class="label">Multiplicative Key</label>
+                <textarea class="text" id="mkey" placeholder="GCD with 26 should be 1"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div>
+                <label class="label">Additive Key</label>
+                <textarea id="akey" class="text"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div>
+                <input type="submit" class="submitBTN4" value="Go">
+            </div>
+            <br>
+            <div>
+                <label class="label">Ciphertext</label>
+                <textarea class="text" id="cipher">Zyfc Rcpc</textarea>
+            </div>
+            
+        </form>
+    </div>
+    <div class="content">
+        <div class="left">
+                The affine is a type of monoalphabetic substitution cipher, 
+                wherein each letter in an alphabet is mapped to its numeric equivalent, 
+                encrypted using a simple mathematical function, and converted back to a letter. 
+                The formula used means that each letter encrypts to one other letter, and back again, 
+                meaning the cipher is essentially a standard substitution cipher with a rule governing which 
+                letter goes to which. As such, it has the weaknesses of all substitution ciphers. Each letter is 
+                enciphered with the function (a*x + b) mod 26, where a is the magnitude of the multiplication and 
+                b is the magnitude of the shift which is 0 in this case.<br>
+                [Source: <a href="https://en.wikipedia.org/wiki/Affine_cipher">Wikipedia</a>]<br><br>
+
+        </div>
+        <img src="images/affine.jpg" alt="pigpen" class="right">
+        <div class="clearfix"></div>
+    </div>
+    <div class="container">    
+        <footer>
+            <a href="https://github.com/rashil2000/d-syfer" target="__blank">Contribute here: github.com/rashil2000/d-syfer</a>.
+        </footer>
+    </div>
+    <script src="js/script3.js"></script>
+</body>
+
+</html>
