@@ -1,0 +1,1 @@
+document.write('<head><meta charset="utf-8" /><title>D-SYFER</title><link href="css/style.css" rel="stylesheet" type="text/css" media="all" /></head><body><div class="container"><header id="main-head"><h1>D-SYFER</h1></header></div><nav id="nav-bar"><a href="index.html">Pigpen</a><a href="index1.html">Atbash</a><a href="index2.html">Caesar</a></nav>')

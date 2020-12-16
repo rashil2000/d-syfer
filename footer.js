@@ -1,0 +1,1 @@
+document.write('<div class="container"><footer><a href="https://github.com/rashil2000/d-syfer" target="__blank">Contribute here: github.com/rashil2000/d-syfer</a>.</footer></div><script src="js/script.js"></script></body></html>')
