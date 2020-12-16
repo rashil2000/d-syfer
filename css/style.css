@@ -30,13 +30,13 @@
     padding-left: 75px;
     text-align: left;
     margin: auto;
-    background: chocolate;
+    background: yellow;
 }
 #nav-bar a
 {
     text-decoration: none;
     padding: 10px 15px;
-    color: greenyellow;
+    color: black;
 }
 #nav-bar a:hover
 {
